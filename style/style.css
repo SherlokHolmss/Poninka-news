@@ -1,0 +1,239 @@
+/* :root{} */
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: Сera Pro;
+    src: url(../fonts/CeraPro-Regular.ttf);
+    font-family: Cera Pro Bold;
+    src: url(../fonts/CeraPro-Bold.ttf);
+    font-family: Cera Pro Blac;
+    src: url(../fonts/CeraPro-Black.ttf);
+
+}
+
+* {
+    font-family: Cera Pro Blac;
+    font-size: 47px;
+    font-weight: 400;
+}
+
+/* header */
+.header {
+    padding: 24px;
+    outline: 2px solid grey;
+
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    gap: 50px;
+
+}
+
+.header-logo {
+    font-family: Dela Gothic One;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+
+}
+
+.header-list-item-link {
+    font-family: Cera Pro Blac;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.header-list-item-link-support {
+    font-family: Cera Pro Blac;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+.header-list-button {
+    background-color: #FF0000;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+/* main */
+/* title-article */
+.title-article {
+    margin-bottom: 24px;
+}
+
+.title-article-before-title {
+    font-family: Cera Pro Blac;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 129px;
+    height: 38px;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    margin-top: 20px;
+}
+
+.title-article-description {
+    font-family: Dela Gothic One;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #707070;
+
+}
+
+.title-article-title {
+    font-family: Cera Pro Blac;
+    font-size: 51px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 33px;
+    margin-bottom: 44px;
+
+}
+
+.description-wrap {
+    display: flex;
+    gap: 57px;
+    align-items: center;
+}
+
+/* section-new  */
+.section-new-image {
+    width: 1600px;
+    height: 400px;
+    display: block;
+}
+
+.article-text {
+    width: 1600px;
+    height: 500px;
+    margin-bottom: 100px;
+    border-bottom: 2px solid #D9D9D9;
+    font-family: Cera Pro Blac;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: justified;
+
+}
+
+/* section hero  */
+.section-hero {
+    padding: 30px;
+    width: 1600px;
+    border-bottom: 2px solid #D9D9D9;
+}
+
+.section-hero-list {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.section-hero-list-item {
+    font-family: Cera Pro Blac;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+/* section-social-networks*/
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-networks-list {
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tags-list {
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tags-list-item {
+    font-family: Cera Pro;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+
+
+    background-color: #D9D9D9;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+
+}
+
+/* footer  */
+.footer {
+    margin-top: 100px;
+    background-color: #262626;
+    padding: 100px;
+}
+
+.footer-list {
+    color: #FFFFFF;
+    padding: 0;
+}
+
+.footer-list-item {
+    font-family: Cera Pro Blac;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* span */
+.poninka-life {
+    color: #FF0000;
+    padding-left: 10px;
+}
+
+.data-article {
+    color: black;
+    padding-left: 10px;
+}
